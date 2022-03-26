@@ -1,0 +1,113 @@
+*{
+    margin: px;
+    padding: 0px;
+    border-style: solid;
+    border-width: 0px;
+}
+
+header{
+    height: 75px;
+    border-width: 5px;
+    background-color: rgb(8, 8, 8);
+    font-size: x-large;
+    font-style: oblique;
+    padding: 0 0;
+
+  
+}
+a.nav-link{
+    color:rgb(240, 240, 240);
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: cursive;
+}
+body{
+    background-color: rgb(174, 235, 214);
+}
+p{
+    height: 100px;
+   
+    font: 1em arial;
+    font-size: x-large;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+}
+
+#Slider{
+    
+    float: center;
+}
+section{
+    height: 599px;
+    width: 100%;
+background-color: aquamarine;
+}
+
+
+#container{
+    display: flex;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    
+}
+h5{
+    font-size: 100px;
+    color: black;
+}
+
+
+
+.detail{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 600px;
+    grid-gap: 0px;
+
+}
+#Perros{
+   
+    border-width: 1px;
+}
+#Gatos{
+   
+    border-width: 1px;
+}
+#Tortugas{
+   
+    border-width: 1px;
+}
+
+#pachuco{
+    width: 450px;
+    height: 200px;
+}
+
+#lola{
+    width: 450px;
+    height: 200px;
+}
+
+#tortuga{
+    width: 450px;
+    height: 200px;
+}
+.carousel-item > img{
+    height: 650px;
+    width: auto;
+}
+.carousel-caption > h5{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    
+}
+.carousel-caption > p{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    
+}
